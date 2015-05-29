@@ -1,0 +1,11 @@
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\bin\Debug\JLPT Question Reader.exe.config
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\bin\Debug\JLPT Question Reader.exe
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\bin\Debug\JLPT Question Reader.pdb
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\bin\Debug\JLPT Question Reader.xml
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\obj\Debug\JLPT_Question_Reader.Form1.resources
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\obj\Debug\JLPT_Question_Reader.Resources.resources
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\obj\Debug\JLPT Question Reader.vbproj.GenerateResource.Cache
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\obj\Debug\JLPT Question Reader.exe
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\obj\Debug\JLPT Question Reader.xml
+c:\users\mitchell\documents\visual studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\obj\Debug\JLPT Question Reader.pdb
+C:\Users\Mitchell\Documents\Visual Studio 2013\Projects\JLPT Question Reader\JLPT Question Reader\obj\Debug\JLPT_Question_Reader.Form2.resources
