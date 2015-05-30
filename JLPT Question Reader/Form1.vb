@@ -453,7 +453,7 @@ Public Class Form1
             translatedString.Clear()
             Dim checkfirst As Boolean = True
             For i = 0 To sAray.Length - 1
-                If sAray(i).IndexOf("english source") <> -1 And translatedString.Length < 100 Then
+                If sAray(i).IndexOf("english source") <> -1 And translatedString.Length < 400 Then
                     If checkfirst = True Then
                         EorJ = "e"
                         checkfirst = False
@@ -466,8 +466,10 @@ Public Class Form1
                         If sAray(i + var).IndexOf("</li>") <> -1 Then
                             translatedString.Append(Mid(sAray(i + var), 22, sAray(i + var).IndexOf("</li>") - 21) & vbCrLf)
                         End If
+                        'Skip the lines we have already covered
+                        i = i + var
                     Loop While sAray(i + var).IndexOf("</ul>") = -1
-                ElseIf sAray(i).IndexOf("japanese source") <> -1 And translatedString.Length < 100 Then
+                ElseIf sAray(i).IndexOf("japanese source") <> -1 And translatedString.Length < 400 Then
                     If checkfirst = True Then
                         EorJ = "j"
                         checkfirst = False
@@ -481,6 +483,8 @@ Public Class Form1
                             translatedString.Append(Mid(sAray(i + var), 21, sAray(i + var).IndexOf("</li>") - 20) & vbCrLf)
                         End If
                     Loop While sAray(i + var).IndexOf("</ul>") = -1
+                    'Skip the lines we have already covered
+                    i = i + var
                 End If
             Next
 
