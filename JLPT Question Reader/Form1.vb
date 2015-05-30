@@ -453,7 +453,7 @@ Public Class Form1
             translatedString.Clear()
             Dim checkfirst As Boolean = True
             For i = 0 To sAray.Length - 1
-                If sAray(i).IndexOf("english source") <> -1 And translatedString.Length < 400 Then
+                If sAray(i).IndexOf("english source") <> -1 AndAlso translatedString.Length < 400 Then
                     If checkfirst = True Then
                         EorJ = "e"
                         checkfirst = False
@@ -469,7 +469,7 @@ Public Class Form1
                         'Skip the lines we have already covered
                         i = i + var
                     Loop While sAray(i + var).IndexOf("</ul>") = -1
-                ElseIf sAray(i).IndexOf("japanese source") <> -1 And translatedString.Length < 400 Then
+                ElseIf sAray(i).IndexOf("japanese source") <> -1 AndAlso translatedString.Length < 400 Then
                     If checkfirst = True Then
                         EorJ = "j"
                         checkfirst = False
